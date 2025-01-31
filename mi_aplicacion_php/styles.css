@@ -1,0 +1,151 @@
+body {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    color: #212529; /* Color de texto claro */
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #8b7fce; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+}
+
+.btn-primary {
+    background-color: #8b7fce; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn-primary:hover {
+    background-color: #8b7fce; /* Color de fondo al pasar el mouse */
+}
+
+.alert {
+    border-radius: 5px; /* Bordes redondeados para las alertas */
+}
+
+.navbar {
+    margin-bottom: 20px; /* Espacio debajo de la barra de navegación */
+}
+
+h1 {
+    margin-top: 20px; /* Espacio superior para el título */
+}
+
+.text-center {
+    margin-bottom: 20px; /* Espacio inferior para el texto centrado */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .card {
+        margin: 10px; /* Margen en pantallas pequeñas */
+    }
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Efecto de hover */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Aumentar ligeramente el tamaño al pasar el mouse */
+}
+
+.btn {
+    transition: background-color 0.3s; /* Transición suave para botones */
+}
+
+.btn:hover {
+    background-color: #8b7fce; /* Color de fondo al pasar el mouse */
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+    display: block;
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+section img {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+    display: block;
+}
+
+/* Estadísticas */
+.estadistica {
+    margin: 1rem 0;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.barra {
+    background: linear-gradient(135deg, #7ba9ff, #8b7fce);
+    color: white;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+#formResponse {
+    display: none;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #8b7fce;
+    transform: scale(1.05);
+}
+
+/* Animaciones de entrada */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
